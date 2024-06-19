@@ -142,7 +142,7 @@ class Eltand_Card extends \Elementor\Widget_Base
                 <br>';
 
         if (!empty($settings['target_link']) && $settings['target_link'] !== "#" && $settings['target_link'] !== "1") {
-            echo '<a href="' . esc_url($settings['target_link']) . '" class="button_etd" target="_blank">Vezi mai multe</a>';
+            echo '<a href="' . esc_url($settings['target_link']) . '" class="button_etd" target="_blank">See more</a>';
         }
         echo '</div></div>';
     }
