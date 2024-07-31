@@ -496,32 +496,6 @@ input {
     display: grid;
     place-content: center;
   }
-
-  &[type="checkbox"] {
-    &::before {
-      border-radius: 2px;
-      border: #E84A5F 1px solid;
-      content: "";
-      width: 0.65em;
-      height: 0.65em;
-      transform: scale(0);
-      transition: 120ms transform ease-in-out;
-      box-shadow: inset 1em 1em var(--form-control-color);
-    }
-
-    &:checked::before {
-      transform: scale(1);
-    }
-
-    &::before {
-      /* ...existing styles */
-
-      background-color: #E84A5F;
-
-      /* Windows High Contrast Mode */
-      /* background-color: CanvasText; */
-    }
-  }
 }
 
 .healthyCard {
