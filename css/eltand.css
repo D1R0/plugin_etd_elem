@@ -433,7 +433,7 @@ h1 {
   margin-left: 8px;
 }
 
-input[type=checkbox] {
+.customizeWebsite_etd input[type=checkbox] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;

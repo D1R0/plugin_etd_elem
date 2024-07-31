@@ -482,19 +482,21 @@ h1 {
   }
 }
 
-input {
-  &[type=checkbox] {
-    appearance: none;
-    background-color: #fff;
-    margin: 0;
-    font: inherit;
-    width: 1.15em;
-    height: 1.15em;
-    border: 0.15em solid rgb(195, 195, 195);
-    border-radius: 2px;
-    transform: translateY(-0.075em);
-    display: grid;
-    place-content: center;
+.customizeWebsite_etd {
+  input {
+    &[type=checkbox] {
+      appearance: none;
+      background-color: #fff;
+      margin: 0;
+      font: inherit;
+      width: 1.15em;
+      height: 1.15em;
+      border: 0.15em solid rgb(195, 195, 195);
+      border-radius: 2px;
+      transform: translateY(-0.075em);
+      display: grid;
+      place-content: center;
+    }
   }
 }
 
