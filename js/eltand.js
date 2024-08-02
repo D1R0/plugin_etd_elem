@@ -3,18 +3,18 @@ periodCost = { ElementorPro: 1.25 };
 featureHTML =
   '<div class="option_etd my-2_etd d-flex_etd w-100_etd align-items-center_etd"> <div class="checkboxContainer_etd m-4_etd"><input type="checkbox" class="featureCheckbox_etd m-4_etd" data-value="%pretImplementare%" data-price-period="%pretMentenanta%" data-feature="%feature%"></div> <div class="optionContent_etd"> <p class="m-0_etd"><b>%title%</b></p> <div class="secondaryText_etd" style="display:hide;">%details%</div> </div> <div class="ml-auto_etd d-flex_etd text-right_etd w-25_etd"> </div> </div> <hr>';
 healthyHTML =
-  '<div class="option_etd my-2_etd d-flex_etd w-100_etd align-items-center_etd healthyCard_etd supportCard_etd  my-3_etd"><div class="optionContent_etd p-2_etd"> <p class="m-0_etd"> <i class="fa-solid fa-arrow-up-right-dots" style="font-size: 24px; color:#198754;"></i>A Healthy and Efficient Website</p> <div class="secondaryText_etd" style="display:hide;">Both helping the pleasant experience on a healthy site for users and staff, as well as the possibility of integrating functionalities (events, monetization system, reconstruction of a section of the site, etc.), optimization according to the evolution of the site.</div> </div> </div>';
+  '<div class="option_etd my-2_etd d-flex_etd w-100_etd align-items-center_etd healthyCard_etd supportCard_etd  my-3_etd"><div class="optionContent_etd p-2_etd"> <p class="m-0_etd"> <i class="fa-solid fa-arrow-up-right-dots" style="font-size: 24px; color:#198754;"></i> Un Website Sanatos si Eficient</p> <div class="secondaryText_etd" style="display:hide;">Atat ajutarea experientei placute pe un site sanatos pentru utilizatori si personal, cat si posibilitatea integrarii de functionalitati (evenimente, sistem de monetizare, reconstruire a unei sectiuni a site-ului etc.), optimizare in functie de evolutia site-ului.</div> </div> </div>';
 processingHTML =
-  '<div class="paginatorButtons_etd text-center_etd my-2_etd"><button class="buttonCustom_etd m-1_etd backButton_etd elementor-button">Back</button><button class="m-1_etd buttonCustom_etd nextButton_etd elementor-button">Next</button></div>';
+  '<div class="paginatorButtons_etd text-center_etd my-2_etd"><button class="buttonCustom_etd m-1_etd backButton_etd elementor-button">Inapoi</button><button class="m-1_etd buttonCustom_etd nextButton_etd elementor-button">Urmatorul</button></div>';
 formHTML =
-  '<form action="#" class="formRequest_etd"> <div class="detailsPayment_etd"></div> <div class="my-3_etd"> <p> Full Name </p> <input type="text" class="form-control_etd mb-2_etd" placeholder="Ionescu Denisa" required="required"> <p> Email</p> <input  type="text" class="form-control_etd mb-2_etd" placeholder="denisa.ionescu@example.ro" required="required"> <p> Phone Number</p> <input  type="text" class="form-control_etd mb-2_etd" placeholder="0712 345 678" required="required"> <p> Business Name (Optional)</p> <input type="text" class="form-control_etd mb-2_etd" placeholder="ELTAND S.R.L."> <div class="text-center_etd"> <button class="buttonCustom_etd m-2_etd retry_etd elementor-button" style="cursor:pointer;">Retry</button><button class="buttonCustom_etd my-2_etd sendButton_etd elementor-button">Send</button></div> </div> </form>';
+  '<form action="#" class="formRequest_etd"> <div class="detailsPayment_etd"></div> <div class="my-3_etd"> <p> Nume Prenume</p> <input type="text" class="form-control_etd mb-2_etd" placeholder="Ionescu Denisa" required="required"> <p> Email</p> <input  type="text" class="form-control_etd mb-2_etd" placeholder="denisa.ionescu@example.ro" required="required"> <p> Telefon</p> <input  type="text" class="form-control_etd mb-2_etd" placeholder="0712 345 678" required="required"> <p> Nume Firma(Optional)</p> <input type="text" class="form-control_etd mb-2_etd" placeholder="ELTAND S.R.L."> <div class="text-center_etd"> <button class="buttonCustom_etd m-2_etd retry_etd elementor-button" style="cursor:pointer;">Reface</button><button class="buttonCustom_etd my-2_etd sendButton_etd elementor-button">Trimite</button></div> </div> </form>';
 features = {
   smsMarketing: {
     title: "SMS Marketing Management",
     pretImplementare: 1.49,
     pretMentenanta: 0,
     details:
-      "The possibility of sending SMS texts with the intention of <span class='highlighted'>increasing sales</span>.",
+      "Posibilitatea de trimitere a textelor SMS cu intentia de a <span class='highlighted'>spori vanzarile</span>. ",
   },
 
   supportChat: {
@@ -22,22 +22,22 @@ features = {
     pretImplementare: 13.99,
     pretMentenanta: 13.99,
     details:
-      "The implementation of a Chat Bot, with the role of helping and answering automatically the questions of users on the website.",
+      "Implementarea unui Chat Bot, cu rolul de a ajuta si raspunde in mod automat intrebarilor utilizatorilor de pe website.",
   },
 
   sistemCurierat: {
-    title: "Courier system",
+    title: "Sistem de curierat",
     pretImplementare: 13.99,
     pretMentenanta: 13.99,
     details:
-      "Implementation of an AWB generator for <span class='highlighted'>transport</span> products.",
+      "Implementarea unui generator de AWB perntru <span class='highlighted'>transportul</span> produselor.",
   },
 
   metodePlata: {
-    title: "Payment system",
+    title: "Sistem de realizare a platilor",
     pretImplementare: 6.99,
     pretMentenanta: 0,
-    details: "Implementation of a <span class='highlighted'>online</span> payment system.",
+    details: "Implementarea unui sistem de realizare <span class='highlighted'>online</span> a platilor",
   },
 
 
@@ -50,36 +50,36 @@ features = {
   },
 
   hosting: {
-    title: "Providing the website hosting service",
+    title: "Furnizarea serviciului de hosting a website-ului",
     pretImplementare: 24.99,
     pretMentenanta: 24.99,
     details:
-      "If you don't know which hosting service is more suitable for you, we will help you.",
+      "Daca nu stii care serviciu de hosting este mai potrivit pentru tine, te ajutam noi.",
   },
   domeniu: {
-    title: "Providing the domain for the website",
+    title: "Furnizarea domeniului pentru website",
     pretImplementare: 14.99,
     pretMentenanta: 14.99,
     details:
-      "The name of your website.",
+      "Numele website-ului tau.",
   },
 
   sistemRezervari: {
-    title: "System for making appointments/reservations",
+    title: "Sistem pentru realizarea de programari/rezervari",
     pretImplementare: 23.99,
     pretMentenanta: 0,
     details:
-      "Implementation of a system through which website visitors can make appointments or book sessions/services",
+      "Implementarea unui sistem prin care vizitatorii website-ului pot realiza programari sau pot rezerva sedinte/servicii",
   },
   optimizareSeo: {
-    title: "SEO optimization of products",
+    title: "Optimizarea SEO a produselor",
     pretImplementare: 4.99,
     pretMentenanta: 0,
     details:
-      "The SEO optimization of the first 20 products on the website is free, and for more products, their SEO optimization will be charged with <span class='highlighted'>€4.99 for every 20 new products</span>.",
+      "Optimizarea SEO a primelor 20 produse pe website este gratuita, iar pentru mai multe produse, optimizarea SEO a acestora va fi  taxata cu <span class='highlighted'>4.99€ pentru fiecare 20 produse noi</span>.",
   },
   produseActive: {
-    title: "Adding products to the website",
+    title: "Adaugarea de produse pe website",
     pretImplementare: 4.99,
     pretMentenanta: 0,
     details:
@@ -249,9 +249,9 @@ function paginator(tab, activePage = 1) {
   });
 
   if (activePage === lastPage) {
-    jQuery(".customizeWebsite_etd .nextButton_etd").text("Process it");
+    jQuery(".customizeWebsite_etd .nextButton_etd").text("Proceseaza");
   } else {
-    jQuery(".customizeWebsite_etd .nextButton_etd").text("Next");
+    jQuery(".customizeWebsite_etd .nextButton_etd").text("Urmatorul");
   }
   jQuery(".customizeWebsite_etd .nextButton_etd")
     .unbind()
