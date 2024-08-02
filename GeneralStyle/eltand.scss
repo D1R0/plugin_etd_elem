@@ -548,14 +548,21 @@ h1 {
 
 .buttonCustom_etd {
   margin-right: 12px;
+  background-color: #000 !important;
 
   &:hover {
     color: #009560 !important;
-  }
+    background-color: #fff !important;
 
-  &:focus {
-    color: #009560 !important;
   }
+}
+
+.mb-2_etd {
+  margin-bottom: 0.75rem !important;
+}
+
+.customizeWebsite_etd form p {
+  margin: 0 !important;
 }
 
 .supportCard {
