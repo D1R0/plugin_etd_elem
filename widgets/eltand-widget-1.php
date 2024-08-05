@@ -57,7 +57,7 @@ class Eltand_Widget_1 extends \Elementor\Widget_Base
                 <div class="supportCard_etd mt-4_etd">
                     <h3>Dificultati? Ai nevoie de ajutor?</h3>
                     <hr>
-                    <p>Trimite mail la <a href="mailto:official@eltand.com">official@eltand.com</a> sau apeleaza la numerele
+                    <p>Trimite mail la <a href="mailto:official@eltand.com">official@eltand.com</a> sau apeleaza la numarul
                         <br><a href="tel:0750446970">+40 750 446 970</a> - Official Eltand
                     </p>
                 </div>
