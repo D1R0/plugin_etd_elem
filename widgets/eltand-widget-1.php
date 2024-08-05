@@ -61,7 +61,8 @@ class Eltand_Widget_1 extends \Elementor\Widget_Base
                         <br><a href="tel:0750446970">+40 750 446 970</a> - Official Eltand
                     </p>
                 </div>
-            </div>
+            </div> 
+        </div>
 
     <?php
     }

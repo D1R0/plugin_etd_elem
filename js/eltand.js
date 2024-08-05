@@ -263,7 +263,7 @@ function paginator(tab, activePage = 1) {
       if (activePage === lastPage) {
         jQuery(".customizeWebsite_etd ." + tab + "_etd").html(formHTML);
         jQuery(".formRequest_etd").before(
-          "<div class='detailsPayment_etd w-100_etd text-left_etd textPrimary_etd'> <h4>Detalii</h4></div>"
+          "<div class='detailsPayment_etd w-100_etd text-left_etd textPrimary_etd'> <h4>Details</h4></div>"
         );
         for (cost in allCosts) {
           nameDetail = cost == "site" ? "Website" : features[cost].title;
