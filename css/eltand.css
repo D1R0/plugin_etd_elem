@@ -165,7 +165,7 @@ body {
   --pallet4: #e8e8e8;
 }
 
-h1 {
+/* h1 {
   color: var(--pallet4);
   --ts: 0 0 2vw var(--pallet1);
   text-shadow: var(--ts), var(--ts), var(--ts);
@@ -174,7 +174,7 @@ h1 {
   font-weight: bold;
   margin-top: 2vw;
 }
-
+ */
 #window-pane {
   display: grid;
   grid-template-columns: 6% min(40vh, 35%) 1fr;
